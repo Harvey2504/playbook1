@@ -15,9 +15,4 @@
         alternatives:
             name: java
             link: /usr/bin/java
-            path: /usr/lib/jvm/java-8-openjdk-amd64/bin/java
-
-      - name: "Package Updating"
-        apt:
-            name: "*"
-            state: latest           
+            path: /usr/lib/jvm/java-8-openjdk-amd64/bin/java          
