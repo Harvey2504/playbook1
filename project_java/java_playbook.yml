@@ -15,4 +15,8 @@
         alternatives:
             name: java
             link: /usr/bin/java
-            path: /usr/lib/jvm/java-8-openjdk-amd64/bin/java          
+            path: /usr/lib/jvm/java-8-openjdk-amd64/bin/java      
+
+      - name: "checking java version"
+        shell:
+            cmd: java -version    
