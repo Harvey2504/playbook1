@@ -6,3 +6,4 @@ sudo apt install awscli
 sudo aws configure
 
 ansible-playbook -i inventory.ini sample_playbook.yml
+(same for ec2 and s3)
