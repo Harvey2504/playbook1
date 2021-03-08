@@ -1,0 +1,12 @@
+---
+ - name: Create a s3 bucket
+   hosts: local
+   connection: local
+
+   tasks:
+
+      - name: Create s3 bucket
+        aws_s3:
+             bucket: mynewansibuck2
+             mode: create
+             region: us-east-2
