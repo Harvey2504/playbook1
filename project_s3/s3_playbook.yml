@@ -8,5 +8,12 @@
       - name: Create s3 bucket
         aws_s3:
              bucket: mynewansibuck2
-             mode: create
+             mode: delete
              region: us-east-2
+      
+      - name: Putting some files
+        aws_s3:
+           bucket: mynewansibuck2
+           object: /my/desired
+           src: /home/ubuntu/project_copy/sample.txt
+           mode: put
