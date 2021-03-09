@@ -12,5 +12,7 @@
         image: ami-08962a4068733a2b6
         wait: yes
         count: 1
+        instance_tags:
+           Name: ubuntuvm
         vpc_subnet_id: subnet-34cd8478
         assign_public_ip: yes
