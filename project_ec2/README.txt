@@ -7,3 +7,11 @@ sudo aws configure
 
 ansible-playbook -i inventory.ini sample_playbook.yml
 (same for ec2 and s3)
+
+ansible localhost -m ping
+sudo ansible -i inventory.ini -u ubuntu -m ping all --private-key ~/awskeypair.pem
+
+
+(Do this if any error is faced for boto)
+#sudo dnf install python3
+sudo alternatives --set python /usr/bin/python3
