@@ -35,4 +35,12 @@ Lastly,
 Run this command to check connection
 ansible -i ~/project_winrm/inventory.ini window -m win_ping
 
+Configuring IIS Server
+Run ansible-playbook -i /home/ubuntu/project_winrm/inventory.ini iis_playbook.yml
+and go to the instance 
+open browser
+put http://localhost
+A Blue Server Screen will appear
+
+
 
