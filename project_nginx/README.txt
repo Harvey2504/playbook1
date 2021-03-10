@@ -7,3 +7,9 @@
  sudo chmod 600 ~/awskeypair.pem
 
  $ls -la shows file permissions
+
+ Some Commands :
+
+ sudo service nginx status
+  sudo service nginx start
+   sudo service nginx stop
