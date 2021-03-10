@@ -16,13 +16,16 @@ ansible_winrm_server_cert_validation= ignore
 ansible_winrm_transport = basic
 
 
+Refer Site:
+https://docs.ansible.com/ansible/latest/user_guide/windows_setup.html#winrm-setup
+
 Run Get-Host on the node powershell as Admin
 Name             : ConsoleHost
 Version          : 5.1.17763.1490 (PowerShell version must be more than 3)
 
 
-https://docs.ansible.com/ansible/latest/user_guide/windows_setup.html#winrm-setup
 
+Refer File:
 https://github.com/ansible/ansible/blob/devel/examples/scripts/ConfigureRemotingForAnsible.ps1
 choose Raw and copy paste it into notepad.
 Save the file as ConfigureRemotingForAnsible.ps1 in notepad type:All Files on Desktop
